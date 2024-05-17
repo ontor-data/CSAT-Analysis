@@ -11,18 +11,18 @@ marketing strategies and operational decisions.
 
 The dataset includes over 1 million transaction records from 2009 to 2011, capturing details like product,
 quantity, price, customer ID, and country, enabling detailed analysis of purchasing trends.
-• Shape: (1067371, 8)
-• Columns:
-➢ Invoice No - Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If
+  - Shape: (1067371, 8)
+  - Columns:
+  - Invoice No - Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If
 this code starts with the letter 'c', it indicates a cancellation.
-➢ Stock Code - Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct
+  - Stock Code - Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct
 product.
-➢ Description - Product (item) name. Nominal.
-➢ Quantity - The quantities of each product (item) per transaction. Numeric.
-➢ Invoice Date - Invoice date and time. Numeric. The day and time when a transaction was generated.
-➢ Unit Price - Unit price. Numeric. Product price per unit in sterling (Â£).
-➢ Customer ID- Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.
-➢ Country - Country name. Nominal. The name of the country where a customer resides.
+  - Description - Product (item) name. Nominal.
+  - Quantity - The quantities of each product (item) per transaction. Numeric.
+  - Invoice Date - Invoice date and time. Numeric. The day and time when a transaction was generated.
+  - Unit Price - Unit price. Numeric. Product price per unit in sterling (Â£).
+  - Customer ID- Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.
+  - Country - Country name. Nominal. The name of the country where a customer resides.
 
 # Data Processing & Cleaning Steps
 
