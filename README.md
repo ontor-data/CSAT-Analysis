@@ -26,14 +26,14 @@ product.
 
 # Data Processing & Cleaning Steps
 
-• Merged Data: Combined transaction records from 2009-2010 and 2010-2011 into a
+  - Merged Data: Combined transaction records from 2009-2010 and 2010-2011 into a
 single dataset.
-• Removed Cancellations: Excluded transactions where the InvoiceNo starts with 'C',
+  - Removed Cancellations: Excluded transactions where the InvoiceNo starts with 'C',
 indicating cancellations.
-• Filtered Customer IDs: Removed records with missing CustomerID to ensure data
+  - Filtered Customer IDs: Removed records with missing CustomerID to ensure data
 completeness.
-• Formatted Dates: Converted InvoiceDate to DateTime format for more accurate
+  - Formatted Dates: Converted InvoiceDate to DateTime format for more accurate
 temporal analysis.
-• Extended Date Attributes: Added columns for 'date', 'month', 'week', and 'time' to
+  - Extended Date Attributes: Added columns for 'date', 'month', 'week', and 'time' to
 facilitate detailed temporal analysis.
 
